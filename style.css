@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  background-position: center;
+  /* background-size: 400px,200px; */
+}
+
+h1 {
+  font-family: Roboto, Arial, sans-sarif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  width: 500px;
+  height: 200px;
+  padding: 1px 20px;
+  margin: auto;
+  margin-top: 10%;
+  box-sizing: border-box;
+  background: url("assets/images/backgorund.png") no-repeat;
+  background-size: cover;
+}
+
+#insta {
+  list-style-image: url("assets/images/Insta.png");
+  list-style-position: inside;
+}
+
+#twitter {
+  list-style-image: url("assets/images/Twitter.png");
+  list-style-position: inside;
+}
+
+#youtube {
+  list-style-image: url("assets/images/Youtube.png");
+  list-style-position: inside;
+}
